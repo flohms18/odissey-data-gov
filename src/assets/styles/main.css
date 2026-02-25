@@ -1,0 +1,12 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+@font-face {
+    font-family: "Nolan_Odissey";
+    src: url("./src/assets/fonts/Helvetica Neue Black.ttf");
+}
+
+body {
+    background-color: #000000;
+    color: #35516E;
+    font-family: "Nolan_Odissey";
+}

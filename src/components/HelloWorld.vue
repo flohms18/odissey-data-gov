@@ -1,8 +1,8 @@
 <template>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6 bg-primary">
-                This is my primary
+            <div class="col-6">
+                <h1>THE ODISSEY</h1>
             </div>
         </div>
     </div>
