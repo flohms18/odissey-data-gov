@@ -6,7 +6,22 @@
 }
 
 body {
-    background-color: #000000;
+     background-color: #000000;
     color: #35516E;
-    font-family: "Nolan_Odissey";
+}
+
+.title-odissey {
+   
+    font-family: "Nolan_Odissey",sans-serif;
+    letter-spacing: 0.5rem;
+    color: #35516E;
+    text-transform: uppercase;
+}
+
+.subtitle-odissey {
+    font-family: "Nolan_Odissey",sans-serif;
+    letter-spacing: 0.5rem;
+    color: #AB1A19;
+    text-transform: uppercase;
+
 }
