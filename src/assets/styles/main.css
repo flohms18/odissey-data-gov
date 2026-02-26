@@ -6,7 +6,7 @@
 }
 
 body {
-     background-color: #000000;
+    background-color: #000000;
     color: #35516E;
 }
 
@@ -24,4 +24,34 @@ body {
     color: #AB1A19;
     text-transform: uppercase;
 
+}
+
+.scroll-down-arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 20px;
+  height: 20px;
+  border-right: 3px solid  #AB1A19;
+  border-bottom: 3px solid  #AB1A19;
+  cursor: pointer;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0) rotate(45deg);
+  }
+  40% {
+    transform: translateX(-50%) translateY(10px) rotate(45deg);
+  }
+  60% {
+    transform: translateX(-50%) translateY(5px) rotate(45deg);
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
 }
