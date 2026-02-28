@@ -18,6 +18,11 @@ body {
     text-transform: uppercase;
 }
 
+.second-subtitle {
+      color: #1E223B;
+
+}
+
 .subtitle-odissey {
     font-family: "Nolan_Odissey",sans-serif;
     letter-spacing: 0.5rem;
